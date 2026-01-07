@@ -3,8 +3,8 @@
 A Machine Learning web application that predicts whether an object detected by sonar signals is a Rock or a Mine, built using Python, Scikit-learn, and Streamlit.
 
 This project demonstrates an end-to-end ML pipeline, from data preprocessing and model training to deployment using a clean and interactive web interface.
----
-### 📌 Project Overview
+
+# 📌 Project Overview
 
 Sonar systems are widely used in underwater exploration and defense to detect objects. This application uses sonar signal frequency data to classify objects into:
 
@@ -14,7 +14,7 @@ Sonar systems are widely used in underwater exploration and defense to detect ob
 
 The model is trained on the Sonar Dataset and deployed as a Streamlit web app for real-time predictions.
 
-### 🚀 Key Features
+# 🚀 Key Features
 
 End-to-end Machine Learning pipeline
 
