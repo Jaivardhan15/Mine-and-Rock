@@ -4,7 +4,7 @@ A Machine Learning web application that predicts whether an object detected by s
 
 This project demonstrates an end-to-end ML pipeline, from data preprocessing and model training to deployment using a clean and interactive web interface.
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 Sonar systems are widely used in underwater exploration and defense to detect objects. This application uses sonar signal frequency data to classify objects into:
 
@@ -14,7 +14,7 @@ Sonar systems are widely used in underwater exploration and defense to detect ob
 
 The model is trained on the Sonar Dataset and deployed as a Streamlit web app for real-time predictions.
 
-# 🚀 Key Features
+## 🚀 Key Features
 
 End-to-end Machine Learning pipeline
 
@@ -29,8 +29,8 @@ Input validation and error handling
 Model persistence using Pickle
 
 Easy to run and deploy
----
-### 🧠 Machine Learning Workflow
+
+## 🧠 Machine Learning Workflow
 
 Dataset Loading
 
@@ -45,8 +45,8 @@ Model Evaluation
 Model Serialization
 
 Web App Deployment
----
-### 🗂️ Folder Structure
+
+## 🗂️ Folder Structure
 
 sonar-streamlit-app/
 
@@ -63,8 +63,8 @@ sonar-streamlit-app/
 │
 
 └── dataset/Sonar dataset.csv   # Dataset
----
-### 🛠️ Tech Stack
+
+## 🛠️ Tech Stack
 
 Programming Language: Python
 
@@ -75,8 +75,9 @@ Data Processing: Pandas, NumPy
 Web Framework: Streamlit
 
 Model Serialization: Pickle
----
-⚙️ Installation & Setup
+
+### ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository 
 ```bash
 git clone https://github.com/Jaivardhan15/sonar-rock-mine-prediction.git
@@ -99,8 +100,8 @@ The application will open automatically at:
 ```bash
 http://localhost:8501
 ```
----
-### 🧪 How to Use
+
+## 🧪 How to Use
 
 Enter 60 comma-separated numeric values representing sonar signals.
 
@@ -111,14 +112,14 @@ The app will classify the object as:
 🪨 Rock
 
 🚨 Mine
----
+
 ### 📊 Model Performance
 
 Algorithm: Logistic Regression
 
 Accuracy: ~85% (may vary due to random split)
----
-### 🌟 Use Cases
+
+## 🌟 Use Cases
 
 Educational ML demonstrations
 
@@ -127,8 +128,8 @@ Underwater object classification
 Defense and naval research simulations
 
 Machine learning deployment practice
----
-### 🔮 Future Enhancements
+
+## 🔮 Future Enhancements
 
 CSV file upload support
 
