@@ -3,7 +3,7 @@
 A Machine Learning web application that predicts whether an object detected by sonar signals is a Rock or a Mine, built using Python, Scikit-learn, and Streamlit.
 
 This project demonstrates an end-to-end ML pipeline, from data preprocessing and model training to deployment using a clean and interactive web interface.
-
+---
 ### 📌 Project Overview
 
 Sonar systems are widely used in underwater exploration and defense to detect objects. This application uses sonar signal frequency data to classify objects into:
@@ -29,7 +29,7 @@ Input validation and error handling
 Model persistence using Pickle
 
 Easy to run and deploy
-
+---
 ### 🧠 Machine Learning Workflow
 
 Dataset Loading
@@ -45,7 +45,7 @@ Model Evaluation
 Model Serialization
 
 Web App Deployment
-
+---
 ### 🗂️ Folder Structure
 
 sonar-streamlit-app/
@@ -63,7 +63,7 @@ sonar-streamlit-app/
 │
 
 └── dataset/Sonar dataset.csv   # Dataset
-
+---
 ### 🛠️ Tech Stack
 
 Programming Language: Python
@@ -75,7 +75,7 @@ Data Processing: Pandas, NumPy
 Web Framework: Streamlit
 
 Model Serialization: Pickle
-
+---
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository 
 ```bash
@@ -96,9 +96,10 @@ streamlit run app.py
 ```
 
 The application will open automatically at:
-
+```bash
 http://localhost:8501
-
+```
+---
 ### 🧪 How to Use
 
 Enter 60 comma-separated numeric values representing sonar signals.
@@ -110,13 +111,13 @@ The app will classify the object as:
 🪨 Rock
 
 🚨 Mine
-
+---
 ### 📊 Model Performance
 
 Algorithm: Logistic Regression
 
 Accuracy: ~85% (may vary due to random split)
-
+---
 ### 🌟 Use Cases
 
 Educational ML demonstrations
@@ -126,7 +127,7 @@ Underwater object classification
 Defense and naval research simulations
 
 Machine learning deployment practice
-
+---
 ### 🔮 Future Enhancements
 
 CSV file upload support
