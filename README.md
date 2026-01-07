@@ -62,9 +62,7 @@ sonar-streamlit-app/
 
 │
 
-└── dataset/
-    
-    └── Sonar dataset.csv   # Dataset
+└── dataset/Sonar dataset.csv   # Dataset
 
 ### 🛠️ Tech Stack
 
