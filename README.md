@@ -79,21 +79,21 @@ Model Serialization: Pickle
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository 
 ```bash
-git clone https://github.com/your-username/sonar-rock-mine-prediction.git
+git clone https://github.com/Jaivardhan15/sonar-rock-mine-prediction.git
 cd sonar-rock-mine-prediction
 ```
 2️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 3️⃣ Train the Model
-
+```bash
 python train_model.py
-
+```
 4️⃣ Run the Application
-
+```bash
 streamlit run app.py
-
+```
 
 The application will open automatically at:
 
