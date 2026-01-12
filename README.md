@@ -47,23 +47,16 @@ Model Serialization
 Web App Deployment
 
 ## 🗂️ Folder Structure
-
+```
 sonar-streamlit-app/
-
 │
-
 ├── app.py                  # Streamlit application
-
 ├── train_model.py          # Model training script
-
 ├── sonar_model.pkl         # Saved ML model
-
 ├── requirements.txt        # Dependencies
-
 │
-
 └── dataset/Sonar dataset.csv   # Dataset
-
+```
 ## 🛠️ Tech Stack
 
 Programming Language: Python
